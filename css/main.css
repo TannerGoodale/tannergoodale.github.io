@@ -11,12 +11,12 @@ body {
     font-size: 16px;
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1 {
     font-size: 1.0rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 h2 {
