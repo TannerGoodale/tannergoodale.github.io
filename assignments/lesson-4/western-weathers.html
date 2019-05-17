@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Idaho's Most Accurate weather service.  Servicing the greater Preston area, greater Soda Springs area and greater Fish Haven area.  Five day forecast and live weather feeds.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Tanner Goodale">
+<link rel="stylesheet" href="..\css\small-4.css">
+<title>Western Weather Watchers | Preston</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
+    
+</head>
+    
+<body>
+    
+    <header>
+        
+        <img src="..\images\sun-logo.png" alt="logo">
+        
+        <div id="hc">
+            <h1>Western Weather Watchers</h1>
+            <div class="motto">Idaho's Premier Weather Service</div>
+        </div>
+        
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="current">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+    
+        <section>
+            
+            <h2 id="town">Preston</h2>
+            
+            <img src="#" alt="hero-image">
+            
+            <section class="summary">
+                
+                <h3>Weather Summary</h3>
+                
+                <span>asdfasdg</span>
+                <span>iopfndb</span>
+                
+            </section>
+            
+        </section>
+        
+        <article>
+            
+            <h2>Article Title</h2>
+            <span>by author</span>
+            
+            <p>Lorpis magnolis cantali jibish siminiopns nibenay solsom</p>
+        
+            <img src="#" alt="article image">
+            
+        </article>
+        
+    </main>
+    
+    <footer>
+        
+        <!--Hate to do it, but Div's not dead yet-->
+        <div id="upperfoot">
+        
+            <div class="left">
+                <p>contact info contact info contact info contact info</p>
+            </div>
+
+            <div class="right">
+                <p>contact info contact info contact info contact info</p>
+            </div>
+            
+            <map></map>
+            
+        </div>
+        
+        <div id="lowerfoot">
+        
+            <p>&copy;2019 | Western Weather Watchers</p>
+            <p>Author: Tanner Goodale</p>
+            <p><a href="#">Terms of Service</a></p>
+            <p id="date"></p>
+            
+        </div>
+        
+    </footer>
+    
+<script>
+    
+var d = new Date();
+document.getElementById("date").innerHTML = d.toDateString();
+    
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+/*@media only screen and (max-width: 670px){*/
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: #941B0C;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+header img{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+#hc{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-family: 'Hind Madurai', sans-serif;
+}
+nav{
+    background-color: #621700;
+    color: #ffffff;
+}
+nav ul{
+    margin: 0px;
+    display: contents;
+}
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.3s;
+}
+nav a:hover{
+    background-color: #3F1101;
+}
+.current{
+    background-color: #3F1101;
+}
+/*}*/
