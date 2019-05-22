@@ -4,4 +4,8 @@ li{
     float: left;
 }
 
+nav{
+    display: block;
+}
+
 }
