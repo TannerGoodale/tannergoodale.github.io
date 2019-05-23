@@ -86,7 +86,7 @@
     }
     
     .left{
-        display: inline-block;
+        display: block;
         margin-top: 1em;
         text-align: left;
         padding-left: 1em;
@@ -173,9 +173,4 @@
     article img{
         width: 20%;
     }
-
-    article{
-        height: auto;
-    }
-
 }
