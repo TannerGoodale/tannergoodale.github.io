@@ -93,6 +93,15 @@
         padding-top: 1em;
     }
 
+    #lowerfoot{
+        padding: 1em;
+    }
+
+    .left p span{
+        position: relative;
+        bottom: 3px;
+    }
+
 }
 
 @media screen and (min-width: 600px){
@@ -157,7 +166,5 @@
     .left p img{
         width: 2%;
     }
-    #lowerfoot{
-        padding: 1em;
-    }
+    
 }
