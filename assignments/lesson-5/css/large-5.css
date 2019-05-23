@@ -168,3 +168,14 @@
     }
     
 }
+@media screen and (min-width: 1740px){
+
+    article img{
+        width: 20%;
+    }
+
+    article{
+        height: auto;
+    }
+
+}
