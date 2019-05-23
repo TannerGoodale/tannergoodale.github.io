@@ -1,11 +1,143 @@
-@media screen and (min-width: 426px){
+@media screen and (min-width: 500px){
 
-li{
-    float: left;
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    li a{
+        padding: 0.7em 0.3em;
+    }
+    header{
+        justify-content: center;
+    }
+    
+    .mobile{
+        display: none;
+    }
+    
+    nav ul li{
+        display: block;
+    }
+    
+    #forecast{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+    
+    #forecast h3{
+        text-align: center;    
+    }
+    
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+    th{
+        background-color: #F6AA1C;
+        color: #ffffff;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    td{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        text-align: center;
+        background-color: #efedea;
+    }
+    tr{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .summary{
+        top: 29%;
+        left: 13%
+    }
+    
+     article img{
+        width: 40%;
+        display: inline;
+        float: right;
+        margin-left: 1em;
+        margin-right: 2em;
+        margin-top: 3em;
+    }
+    
+    article{
+        margin-top: 2em;
+        width: 80%;
+    }
+    
+    #hero{
+        width: 80%;
+    }
+    
+    footer{
+        width: 84%;
+        margin: auto;
+    }
+    
+    map{
+        float: right;
+    }
+    
+    .left{
+        display: inline-block;
+        margin-top: 1em;
+        text-align: left;
+    }
+
 }
 
-nav{
-    display: block;
+@media screen and (min-width: 600px){
+    
+    li a{
+        padding: 0.9em 0.7em;
+    }
+    
+    #hero{
+        width: 80%;
+    }
+    
+    .summary{
+        left: 13%;
+    }
+    
+    article{
+        width: 80%;
+    }
+    
+    .left img{
+        width: 7%;
+    }
 }
 
+@media screen and (min-width: 822px){
+    
+    li a{
+        padding: 1em 2em;
+    }
+    
+    #forecast{
+        width: 50%;
+    }
+    .summary{
+        left: 18%;
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1275px){
+    
+    article img{
+        width: 30%;
+        margin-top: 5px;
+    }
+    
+    #forecast{
+        width: 45%;
+    }
 }

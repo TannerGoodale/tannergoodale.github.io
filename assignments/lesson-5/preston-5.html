@@ -18,7 +18,7 @@
     
     <header>
         
-        <img src="images/sun-logo.png" alt="logo">
+        <img src="../lesson-5/images/sun-logo.png" alt="logo">
         
         <div id="hc">
             <h1>Western Weather Watchers</h1>
@@ -29,6 +29,12 @@
     
     <nav>
         <ul>
+            <li class="mobile">
+                <a href="#">
+                    <img src="../lesson-5/images/drop-down-icon.png" alt="Drop Down Icon">
+                    <span>Menu</span>
+                </a>
+            </li>
             <li><a href="#">Home</a></li>
             <li><a href="#" class="current">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -40,31 +46,82 @@
     
     <main>
     
-        <section>
+        <section id="top">
             
-            <h2 id="town">Preston</h2>
+            <h2 id="town">Preston Idaho</h2>
             
-            <img src="#" alt="hero-image">
+            <img id="hero" src="../lesson-5/images/hero-preston.jpg" alt="hero-image">
             
             <section class="summary">
                 
                 <h3>Weather Summary</h3>
                 
-                <span>asdfasdg</span>
-                <span>iopfndb</span>
+                <div class="wrapper">
+                    <div class="sbs">
+                        <span class="vari">Currently:</span>
+                        <span class="uni">Sunny</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">High:</span>
+                        <span class="uni">76&#176;F</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Wind Chill:</span>
+                        <span class="uni">70&#176;F</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Humidity:</span>
+                        <span class="uni">45%</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Wind Speed:</span>
+                        <span class="uni">5 mph</span>
+                    </div>
+                </div>
                 
             </section>
             
         </section>
         
+        <section id="forecast">
+        
+            <h3>5 Day Forecast</h3>
+            
+            <table>
+            
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td><img src="../lesson-5/images/partly-sunny.png" alt="Mostly Sunny">89&#176;F</td>
+                
+                    <td><img src="../lesson-5/images/partly-sunny.png" alt="Mostly Sunny">87&#176;F</td>
+                
+                    <td><img src="../lesson-5/images/partly-sunny.png" alt="Mostly Sunny">78&#176;F</td>
+                
+                    <td><img src="../lesson-5/images/partly-sunny.png" alt="Mostly Sunny">75&#176;F</td>
+                
+                    <td><img src="../lesson-5/images/partly-sunny.png" alt="Mostly Sunny">72&#176;F</td>
+                </tr>
+            
+            </table>
+        
+        </section>
+        
         <article>
             
-            <h2>Article Title</h2>
-            <span>by author</span>
+            <img src="../lesson-5/images/article-img.jpg" alt="article image">
             
-            <p>Lorpis magnolis cantali jibish siminiopns nibenay solsom</p>
-        
-            <img src="#" alt="article image">
+            <div>
+                <h2>Pollen Everywhere!</h2>
+                <span>By: Tanner Goodale</span>
+
+                <p>If your like me, you have the unfortunate blessing of having some pretty bad pollen allergies and this time of year can always be a bit of a doozy.  Just yesterday I had steeped outside to get the mail, thinking nothing of this regular ritual.  It was a beautiful day, the sun was up, a few fluffy clouds were rolling along in the sky and my mailbox was yellow. Yep, that's when I realized that I was in trouble.  You see, like most people, my mailbox is not yellow, but a simple black color instead.  Today, however, nature decided to give it a new paint job, along with my car, and essentially the entire outside of my house.  This was about the time my eyes started to burn and tear up and my nose started to run.  I know, I know, dirty details and all, but I'm not the only one.  In my rush to get back inside my humble &#40;and now yellow&#41; abode, I saw my neighbor making the same mad dash.  It seemed she had it worse then I did ... <a href="#">continue to full article</a></p>
+            </div>
             
         </article>
         
@@ -72,15 +129,25 @@
     
     <footer>
         
-        <!--Hate to do it, but Div's not dead yet-->
         <div id="upperfoot">
         
             <div class="left">
-                <p>contact info contact info contact info contact info</p>
-            </div>
-
-            <div class="right">
-                <p>contact info contact info contact info contact info</p>
+                <p>
+                    Western Weather Watchers<br>
+                    <img src="../lesson-5/images/location-icon.jpg" alt="Location Icon"> 30 N 1st E<br>
+                    Preston, ID 83263
+                </p>
+                <p>
+                    <img src="../lesson-5/images/phone-icon.png" alt="Phone Icon"> 999.999.9999<br>
+                    <img src="../lesson-5/images/mail-icon.png" alt="Email Icon"> watchers@wwwatchers.com
+                </p>
+                
+                <a href="#">
+                    <img src="../lesson-5/images/facebook-icon.png" alt="facebook icon">
+                </a>
+                <a href="#">
+                    <img src="../lesson-5/images/twitter-icon.png" alt="twitter icon">
+                </a>
             </div>
             
             <map name="map"></map>
@@ -89,9 +156,7 @@
         
         <div id="lowerfoot">
         
-            <p>&copy;2019 | Western Weather Watchers</p>
-            <p>Author: Tanner Goodale</p>
-            <p><a href="#">Terms of Service</a></p>
+            <p>&copy;2019 Western Weather Watchers | <a href="#">Terms of Service</a> | Tanner Goodale</p>
             <p id="date"></p>
             
         </div>

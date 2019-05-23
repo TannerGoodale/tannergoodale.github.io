@@ -42,8 +42,120 @@ nav a{
     transition-duration: 0.3s;
 }
 nav a:hover{
-    background-color: #3F1101;
+    background-color: #BC3908;
 }
 .current{
     background-color: #3F1101;
+}
+.motto{
+    font-style: italic;
+}
+nav ul li{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.mobile img{
+    width: 17px;
+    padding-right: 0.1em;
+}
+.mobile span{
+    font-size: 1.5em;
+    padding-left: 0.1em;
+}
+tr img{
+    width: 100%
+}
+#forecast{
+    display: none;
+}
+#hero{
+    display: block;
+    width: 98%;
+    margin: auto;
+}
+#town{
+    text-align: center;
+}
+#top{
+    position: relative;
+}
+.summary{
+    background: rgba(206, 141, 43, 0.7);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    padding: 0.2em;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid gray;
+     box-shadow: 1px 1px 20px #888888;
+}
+.summary h3{
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.7);
+}
+.wrapper{
+    display: inline-grid;
+}
+.uni{
+    color: gold;
+}
+article img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 20px #888888;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+article{
+    width: 98%;
+    margin: auto;
+    background-color: rgba(206, 141, 43, 0.5);
+    padding: 1em 0;
+    margin-top: 1em;
+}
+article span{
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 0 0.5em;
+    color: #941B0C;
+}
+article h2{
+    margin: 0;
+    padding: 0 0.2em;
+}
+article p{
+    padding: 0 1em;
+}
+#lowerfoot{
+    background-color: #621708;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80%;
+}
+#lowerfoot p{
+    margin: 0;
+}
+#lowerfoot a{
+    color: #ffffff;
+}
+.left{
+    text-align: center;
+    background-color: #941B0C;
+    color: #ffffff;
+}
+.left p img{
+    width: 5%;
+    border-radius: 100%;
+}
+.left img{
+    width: 10%;
+    border-radius: 100%;
+}
+.left a{
+    text-decoration: none;
 }
