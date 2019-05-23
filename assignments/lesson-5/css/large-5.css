@@ -99,7 +99,7 @@
 
     .left p span{
         position: relative;
-        bottom: 3px;
+        bottom: 0.1em;
     }
 
 }
