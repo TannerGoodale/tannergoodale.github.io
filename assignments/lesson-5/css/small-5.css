@@ -42,10 +42,10 @@ nav a{
     transition-duration: 0.3s;
 }
 nav a:hover{
-    background-color: #BC3908;
+    background-color: gold;
 }
 .current{
-    background-color: #3F1101;
+    background-color: rgb(63, 17, 1);
 }
 .motto{
     font-style: italic;
@@ -114,7 +114,7 @@ article img{
 article{
     width: 98%;
     margin: auto;
-    background-color: rgba(206, 141, 43, 0.5);
+    background-color: rgb(206, 141, 43);
     padding: 1em 0;
     margin-top: 1em;
 }
