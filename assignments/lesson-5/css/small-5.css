@@ -136,6 +136,7 @@ article p{
     color: #ffffff;
     text-align: center;
     font-size: 80%;
+    padding: 1em;
 }
 #lowerfoot p{
     margin: 0;
@@ -147,6 +148,7 @@ article p{
     text-align: center;
     background-color: #941B0C;
     color: #ffffff;
+    padding: 1em;
 }
 .left p img{
     width: 5%;
@@ -158,4 +160,7 @@ article p{
 }
 .left a{
     text-decoration: none;
+}
+footer{
+    margin-top: 1em;
 }
