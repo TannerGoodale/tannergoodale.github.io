@@ -42,7 +42,7 @@ nav a{
     transition-duration: 0.3s;
 }
 nav a:hover{
-    background-color: gold;
+    background-color: rgba(206, 141, 43)
 }
 .current{
     background-color: rgb(63, 17, 1);
