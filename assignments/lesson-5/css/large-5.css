@@ -162,6 +162,30 @@
     }
     
 }
+@media screen and (min-width: 1396px){
+
+    article img{
+        width: 28%;
+    }
+
+}
+@media screen and (min-width: 1450px){
+
+    article img{
+        width: 25%;
+    }
+
+}
+@media screen and (min-width: 1549px){
+
+    article img{
+        width: 24%;
+    }
+    article{
+        height: 15em;
+    }
+
+}
 @media screen and (min-width: 1599px){
 
     article img{
@@ -170,10 +194,6 @@
 
 }
 @media screen and (min-width: 1740px){
-
-    article img{
-        width: 20%;
-    }
 
     article{
         height: 14em;
