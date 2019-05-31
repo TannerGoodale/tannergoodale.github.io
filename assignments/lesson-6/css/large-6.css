@@ -139,6 +139,9 @@
     body{
         font-size: 1.5em;
     }
+    .left img{
+        width: 4rem;
+    }
 }
 
 @media screen and (min-width: 2560px){
@@ -148,5 +151,8 @@
     }
     article{
         height: 13em;
+    }
+    .left img{
+        width: 5rem;
     }
 }
