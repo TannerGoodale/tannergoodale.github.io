@@ -1,0 +1,173 @@
+@media screen and (min-width: 822px){
+
+    .grid-wrap{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gal{
+        text-align: left;
+        margin-left: 3em;
+    }
+    .gs{
+        box-shadow: 3px 5px 20px rgba(76, 175, 80, 0.3);
+        transition: 0.5s;
+    }
+    .gs:hover{
+        box-shadow: 10px 15px 5px rgba(76, 175, 80, 0.3);
+    }
+    .show{
+        display: none;
+    }
+    
+    .show2{
+        display: flex;
+        padding: 0;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    header img{
+        width: 120px;
+        height: 18%;
+        top: 0;
+        left: 0;
+    }
+    
+    header{
+        justify-content: center;
+    }
+    
+    #mobile{
+        display: none;
+    }
+    
+    nav ul li{
+        display: block;
+    }
+    
+    #forecast{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    
+    #forecast h3{
+        text-align: center;    
+    }
+    
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+    th{
+        background-color: #F6AA1C;
+        color: #ffffff;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    td{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        text-align: center;
+        background-color: #efedea;
+    }
+    tr{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .summary{
+        top: 29%;
+        left: 18%;
+        font-size: 1.5em;
+    }
+    
+    article img{
+        width: 50%;
+        float: right;
+        margin: 1em;
+    }
+    
+    article{
+        margin-top: 2em;
+        width: 80%;
+    }
+    
+    #hero{
+        width: 80%;
+    }
+    
+    footer{
+        width: 84%;
+        margin: auto;
+    }
+    #big{
+        width: 100%;
+    }
+    map{
+        float: right;
+    }
+    
+    .left{
+        display: block;
+        margin-top: 1em;
+        text-align: left;
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .wrap{
+        display: inline-block;
+        width: 35%;
+        text-align: center;
+    }
+    
+    .left img{
+        width: 3.5rem;;
+    }
+
+    li a{
+        padding: 1em 2em;
+    }
+    
+}
+@media screen and (min-width: 1275px){
+    
+    article img{
+        width: 25%;
+    }
+    
+    #forecast{
+        width: 45%;
+    }
+    
+}
+
+
+@media screen and (min-width: 1740px){
+
+    body{
+        font-size: 1.5em;
+    }
+    .left img{
+        width: 4rem;
+    }
+}
+
+@media screen and (min-width: 2560px){
+
+    body{
+        font-size: 25px;
+    }
+    article{
+        height: 13em;
+    }
+    .left img{
+        width: 5rem;
+    }
+}

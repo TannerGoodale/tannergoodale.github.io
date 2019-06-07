@@ -99,10 +99,18 @@ tr img{
     border-bottom: 1px solid rgba(230, 230, 230, 0.7);
 }
 .wrapper{
-    display: inline-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
 }
 .uni{
     color: gold;
+    display: flex;
+    justify-content: right;
+}
+.vari{
+    display: flex;
+    justify-content: flex-end;
 }
 article img{
     display: block;
@@ -169,6 +177,7 @@ footer{
     margin-top: 1em;
 }
 .show{
-    display: block;
+    display: flex;
+    flex-flow: column;
     padding: 0;
 }
