@@ -1,0 +1,251 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: #941B0C;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+header img{
+    width: 140px;
+    height: 140px;;
+    position: relative;
+    top: 1em;
+    left: 2em;
+}
+#hc{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-family: 'Hind Madurai', sans-serif;
+}
+nav{
+    background-color: #621700;
+    color: #ffffff;
+}
+nav ul{
+    margin: 0px;
+}
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.3s;
+}
+nav a:hover{
+    background-color: rgba(206, 141, 43);
+    color: #ffffff;
+}
+.current{
+    background-color: rgb(63, 17, 1);
+}
+.motto{
+    font-style: italic;
+}
+nav ul{
+    display: none;
+}
+#mobile{
+    display: block;
+    margin: auto;
+    padding: 0.70rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+}
+tr img{
+    width: 100%
+}
+#forecast{
+    display: none;
+}
+#hero{
+    display: block;
+    width: 98%;
+    margin: auto;
+}
+#town{
+    text-align: center;
+}
+#top{
+    position: relative;
+}
+.summary{
+    background: rgba(206, 141, 43, 0.7);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    padding: 0.2em;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 20px #888888;
+    font-size: 1.2em;
+}
+.summary h3{
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.7);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+.uni{
+    color: gold;
+    display: flex;
+    justify-content: right;
+}
+.vari{
+    display: flex;
+    justify-content: flex-end;
+}
+article img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 20px #888888;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+article{
+    width: 98%;
+    margin: auto;
+    background-color: rgb(206, 141, 43);
+    padding: 1em 0;
+    margin-top: 1em;
+}
+article span{
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 0 0.5em;
+    color: #000000;
+}
+article h2{
+    margin: 0;
+    padding: 0 0.2em;
+}
+article p{
+    padding: 0 1em;
+}
+#lowerfoot{
+    background-color: #621708;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80%;
+    padding: 1em;
+}
+#lowerfoot p{
+    margin: 0;
+}
+#lowerfoot a{
+    color: #ffffff;
+}
+.left{
+    text-align: center;
+    background-color: #941B0C;
+    color: #ffffff;
+    padding: 1em;
+}
+.rup{
+    position: relative;
+    bottom: 6px;
+}
+.ico{
+    font-size: 2em;
+}
+.left img{
+    width: 50px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.left img:hover{
+    box-shadow: 1px 5px 10px rgba(76, 175, 80, 0.5);
+}
+.left a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 1em;
+}
+.show{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+}
+#gal{
+    text-align: center;
+}
+.grid-wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.gs img{
+    width: 100%;
+}
+.topp{
+    display: block;
+    padding: 1rem;
+    width: 90%;
+}
+.inli{
+    display: block;
+    padding: 2rem 0.5rem;
+}
+#dangerq{
+    padding: 0;
+}
+.seper{
+    display: block;
+    margin-top: 2rem;
+}
+.mseper{
+    display: block;
+    margin-top: 1rem;
+}
+.str{
+    width: 95.1%;
+    padding: 1.5rem;
+}
+input:required{
+    border: 1px solid red;
+}
+input:required:valid{
+    border: 1px solid green;
+}
+input{
+    font-size: 1.5em;
+}
+legend{
+    font-size: 1.5em;
+    padding: 1rem 0 0 0;
+}
+main h1{
+    margin-left: 1rem;
+}
+.lfont{
+    font-size: 1.5em;
+}
+.range{
+    overflow: hidden;
+    width: 50%;
+}
+.spaceme{
+    padding: 0 0 1em 0;
+}
+.submitBtn{
+    margin: 1rem 0 0 1rem;;
+}

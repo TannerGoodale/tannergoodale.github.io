@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Idaho's Most Accurate weather service.  Servicing the greater Preston area, greater Soda Springs area and greater Fish Haven area.  Five day forecast and live weather feeds.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Tanner Goodale">
+<link rel="stylesheet" href="../../css/normalize.css">
+<link rel="stylesheet" href="../lesson-8/css/small-8.css">
+<link rel="stylesheet" href="../lesson-8/css/medium-8.css">
+<link rel="stylesheet" href="../lesson-8/css/large-8.css">
+<link rel="icon" href="../lesson-8/images/sun-logo.png">
+<title>Western Weather Watchers | Storm Center</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
+    
+</head>
+    
+<body>
+    
+    <header>
+        
+        <img src="../lesson-8/images/sun-logo.png" alt="logo">
+        
+        <div id="hc">
+            <h1>Western Weather Watchers</h1>
+            <div class="motto">Idaho's Premier Weather Service</div>
+        </div>
+        
+    </header>
+    
+    <nav>
+        <button id="mobile" type="button" onclick="toggleFunc()">
+                &#9776; Menu
+        </button>
+        <ul id="drop" class="show2 ">
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson-8/preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-8/stormcenter.html" class="current">Storm Center</a></li>
+            <li><a href="../lesson-8gallery-8.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+    
+        <h1>Weather Center</h1>
+        
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>User Info</legend>
+                <label><span class="mseper lfont">Full Name*</span> <input class="topp" type="text" name="name" required pattern="(?=.*[a-zA-Z]).{5,}"></label>
+                <label><span class="seper lfont">Email</span> <input class="topp" type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label><span class="seper lfont">Phone*</span> <input class="topp" type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label><span class="seper lfont">Zip Code*</span> <input class="topp" type="number" name="zip" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Storm Info</legend>
+                <label><span class="mseper lfont">Date of Storm</span> <input class="topp" type="date" name="date"></label>
+                <label>
+                    <span class="seper lfont">Storm Type</span>
+                    <input class="topp" list="type" name="type">
+                    <datalist id="type">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+                <div class="inli">
+                <label><div class="lfont spaceme">Storm Severity (1 to 10)</div> <input class="sbs range" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
+                <span id="ratingvalue" class="lfont">5</span>
+                </div>
+                
+                <label><span class="lfont">Storm Region</span>
+                    <select class="topp str" name="subject">
+                        <option value="" selected="true" disabled="disabled">Select Region </option>
+                        <option value="preston">Preston</option>
+                        <option value="sugarcity">Sugar City</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>User Input</legend>
+                <div>
+                    <span class="topp mseper lfont" id="dangerq">Are you in Danger?</span>
+                    <label class="sbs lfont"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs lfont"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs lfont"><input type="radio" name="danger" value="no"> No</label>
+                </div>
+                <lable><span class="seper lfont">More Info:</span> <input class="topp" id="textarea" type="textarea"></lable>  
+            </fieldset>
+    
+            <input type="submit" value="Send My Report" class="submitBtn">
+    
+        </form>
+        
+    </main>
+    
+    <footer>
+        
+        <div id="upperfoot">
+        
+            <div class="left">
+                <div class="wrap">
+                    <p>
+                        Western Weather Watchers<br><br>
+                        <span class="ico">&#10148;</span> <span class="rup">30 N 1st E</span><br>
+                        <span class="rup">Preston, ID 83263</span>
+                    </p>
+                    <p>
+                        <span class="ico">&#9990;</span> <span class="rup">999.999.9999</span><br>
+                        <span class="ico">&#9993;</span> <span class="rup">watchers@wwwatchers.com</span>
+                    </p>
+
+                    <a href="#">
+                        <img src="../lesson-7/images/facebook-icon.png" alt="facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="../lesson-7/images/twitter-icon.png" alt="twitter icon">
+                    </a>
+                </div>
+            </div>
+            
+            <map name="map"></map>
+            
+        </div>
+        
+        <div id="lowerfoot">
+        
+            <p>&copy;2019 Western Weather Watchers | <a href="#">Terms of Service</a> | Tanner Goodale</p>
+            <p id="date"></p>
+            
+        </div>
+        
+    </footer>
+
+<!--<script src="../lesson-7/scripts/windchill.js"></script>-->
+<script src="../lesson-7/scripts/date.js"></script>
+<script src="../lesson-7/scripts/hamburger.js"></script>
+<script src="../lesson-8/scripts/slider.js"></script>
+
+</body>
+</html>

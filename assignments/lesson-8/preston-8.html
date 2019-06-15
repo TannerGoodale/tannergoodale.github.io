@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Idaho's Most Accurate weather service.  Servicing the greater Preston area, greater Soda Springs area and greater Fish Haven area.  Five day forecast and live weather feeds.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Tanner Goodale">
+<link rel="stylesheet" href="../../css/normalize.css">
+<link rel="stylesheet" href="../lesson-8/css/small-8.css">
+<link rel="stylesheet" href="../lesson-8/css/medium-8.css">
+<link rel="stylesheet" href="../lesson-8/css/large-8.css">
+<link rel="icon" href="../lesson-8/images/sun-logo.png">
+<title>Western Weather Watchers | Preston</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
+    
+</head>
+    
+<body>
+    
+    <header>
+        
+        <img src="../lesson-8/images/sun-logo.png" alt="logo">
+        
+        <div id="hc">
+            <h1>Western Weather Watchers</h1>
+            <div class="motto">Idaho's Premier Weather Service</div>
+        </div>
+        
+    </header>
+    
+    <nav>
+        <button id="mobile" type="button" onclick="toggleFunc()">
+                &#9776; Menu
+        </button>
+        <ul id="drop" class="show2 ">
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson-8/preston-8.html" class="current">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-8/gallery-.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+    
+        <section id="top">
+            
+            <h2 id="town">Preston Idaho</h2>
+            
+            <picture>
+                <source media="(max-width: 500px)" srcset="../lesson-8/images/cit230_image_franklin_small.jpg">
+                <img id="hero" src="../lesson-8/images/cit230_image_franklin_large.jpg" alt="hero-image">
+            </picture>
+            
+            <section class="summary">
+                
+                <h3>Weather Summary</h3>
+                
+                <div class="wrapper">
+                    <div class="sbs">
+                        <span class="vari">Currently:</span>
+                    </div>
+                    <div>
+                        <span class="uni">Sunny</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">High:</span>
+                    </div>
+                    <div>
+                        <span id="t" class="uni">76&#176;F</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Wind Chill:</span>
+                    </div>
+                    <div>
+                        <span id="f" class="uni"></span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Humidity:</span>
+                    </div>
+                    <div>
+                        <span class="uni">45%</span>
+                    </div>
+                    <div class="sbs">
+                        <span class="vari">Wind Speed:</span>
+                    </div>
+                    <div>
+                        <span id="s" class="uni">5 mph</span>
+                    </div>
+                </div>
+                
+            </section>
+            
+        </section>
+        
+        <section id="forecast">
+        
+            <h3>5 Day Forecast</h3>
+            
+            <table>
+            
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">89&#176;F</td>
+                
+                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">87&#176;F</td>
+                
+                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">78&#176;F</td>
+                
+                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">75&#176;F</td>
+                
+                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">72&#176;F</td>
+                </tr>
+            
+            </table>
+        
+        </section>
+        
+        <article>
+            
+            <picture>
+                <source media="(max-width: 500px)" srcset="../lesson-8/images/article-img-500-65.jpg">
+                <source media="(min-width: 501px)" srcset="../lesson-8/images/article-img-1090-65.jpg">
+                <img src="../lesson-8/images/article-img.jpg" alt="article image">
+            </picture>
+            
+            <div>
+                <h2>Pollen Everywhere!</h2>
+                <span>By: Tanner Goodale</span>
+
+                <p>If your like me, you have the unfortunate blessing of having some pretty bad pollen allergies and this time of year can always be a bit of a doozy.  Just yesterday I had steeped outside to get the mail, thinking nothing of this regular ritual.  It was a beautiful day, the sun was up, a few fluffy clouds were rolling along in the sky and my mailbox was yellow. Yep, that's when I realized that I was in trouble.  You see, like most people, my mailbox is not yellow, but a simple black color instead.  Today, however, nature decided to give it a new paint job, along with my car, and essentially the entire outside of my house.  This was about the time my eyes started to burn and tear up and my nose started to run.  I know, I know, dirty details and all, but I'm not the only one.  In my rush to get back inside my humble &#40;and now yellow&#41; abode, I saw my neighbor making the same mad dash.  It seemed she had it worse then I did ... <a href="#">continue to full article</a></p>
+            </div>
+            
+        </article>
+        
+    </main>
+    
+    <footer>
+        
+        <div id="upperfoot">
+        
+            <div class="left">
+                <div class="wrap">
+                    <p>
+                        Western Weather Watchers<br><br>
+                        <span class="ico">&#10148;</span> <span class="rup">30 N 1st E</span><br>
+                        <span class="rup">Preston, ID 83263</span>
+                    </p>
+                    <p>
+                        <span class="ico">&#9990;</span> <span class="rup">999.999.9999</span><br>
+                        <span class="ico">&#9993;</span> <span class="rup">watchers@wwwatchers.com</span>
+                    </p>
+
+                    <a href="#">
+                        <img src="../lesson-8/images/facebook-icon.png" alt="facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="../lesson-8/images/twitter-icon.png" alt="twitter icon">
+                    </a>
+                </div>
+            </div>
+            
+            <map name="map"></map>
+            
+        </div>
+        
+        <div id="lowerfoot">
+        
+            <p>&copy;2019 Western Weather Watchers | <a href="#">Terms of Service</a> | Tanner Goodale</p>
+            <p id="date"></p>
+            
+        </div>
+        
+    </footer>
+
+<script src="../lesson-8/scripts/windchill.js"></script>
+<script src="../lesson-8/scripts/date.js"></script>
+<script src="../lesson-8/scripts/hamburger.js"></script>
+
+</body>
+</html>
