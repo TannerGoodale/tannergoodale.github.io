@@ -38,7 +38,7 @@ var request = new XMLHttpRequest();
                 article.appendChild(p2);
                 article.appendChild(p3);
                 
-                document.getElementById("jdrop").innerHTML.appendChild(article);
+                document.getElementById("jdrop").appendChild(article);
 
             }
         }
