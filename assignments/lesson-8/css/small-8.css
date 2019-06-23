@@ -249,3 +249,14 @@ main h1{
 .submitBtn{
     margin: 1rem 0 0 1rem;;
 }
+#jdrop{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.jar{
+    margin-top: 2rem;
+}
+.jh3{
+    flex-flow: wrap;
+}

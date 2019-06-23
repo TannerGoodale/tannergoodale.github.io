@@ -145,8 +145,32 @@
     .submitBtn{
         font-size: 1em;
     }
+    .jimg{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    #jdrop{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .jar{
+        margin: 1rem;
+    }
+    .jimg{
+        width: 70%;
+    }
     
-    
+}
+@media screen and (min-width: 852px){
+    .oddimg{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1114px){
+    .oddimg{
+        width: 100px;
+    }
 }
 @media screen and (min-width: 1275px){
     
