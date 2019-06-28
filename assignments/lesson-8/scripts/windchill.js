@@ -8,9 +8,10 @@ Output: The code will output to the "f" id in the summary grid.
 */
 
 //Declare variables
+window.onload = function(){
 var f;
 
-var t = parseInt(document.getElementById("t").innerHTML);
+var t = parseInt(document.getElementById("jtempmax").innerHTML);
     
 var s = parseInt(document.getElementById("s").innerHTML);
 
@@ -19,3 +20,4 @@ var s = parseInt(document.getElementById("s").innerHTML);
 
 //Push result to the page
 document.getElementById("f").innerHTML = f + "&#176;F";
+}

@@ -13,7 +13,7 @@
 <title>Western Weather Watchers | Preston</title>
     
 <link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
-    
+<script src="../lesson-10/api-test.js"></script>
 </head>
     
 <body>
@@ -63,13 +63,13 @@
                         <span class="vari">Currently:</span>
                     </div>
                     <div>
-                        <span class="uni">Sunny</span>
+                        <span class="uni" id="jcur"></span>
                     </div>
                     <div class="sbs">
                         <span class="vari">High:</span>
                     </div>
                     <div>
-                        <span id="t" class="uni">76&#176;F</span>
+                        <span class="uni" id="jtempmax"></span>
                     </div>
                     <div class="sbs">
                         <span class="vari">Wind Chill:</span>
@@ -81,13 +81,13 @@
                         <span class="vari">Humidity:</span>
                     </div>
                     <div>
-                        <span class="uni">45%</span>
+                        <span id="jhum" class="uni">45%</span>
                     </div>
                     <div class="sbs">
                         <span class="vari">Wind Speed:</span>
                     </div>
                     <div>
-                        <span id="s" class="uni">5 mph</span>
+                        <span id="s" class="uni"></span>
                     </div>
                 </div>
                 
@@ -98,6 +98,7 @@
         <section id="forecast">
         
             <h3>5 Day Forecast</h3>
+            <h6>Data Provided by <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></h6>
             
             <table>
             
@@ -109,15 +110,15 @@
                     <th>Sun</th>
                 </tr>
                 <tr>
-                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">89&#176;F</td>
+                    <td><img id="jimg1" src="" alt=""><span id="jdaytemp1"></span>&#176;F</td>
                 
-                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">87&#176;F</td>
+                    <td><img id="jimg2" src="" alt=""><span id="jdaytemp2"></span>&#176;F</td>
                 
-                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">78&#176;F</td>
+                    <td><img id="jimg3" src="" alt=""><span id="jdaytemp3"></span>&#176;F</td>
                 
-                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">75&#176;F</td>
+                    <td><img id="jimg4" src="" alt=""><span id="jdaytemp4"></span>&#176;F</td>
                 
-                    <td><img src="../lesson-8/images/partly-sunny.png" alt="Mostly Sunny">72&#176;F</td>
+                    <td><img id="jimg5" src="" alt=""><span id="jdaytemp5"></span>&#176;F</td>
                 </tr>
             
             </table>
@@ -181,9 +182,11 @@
         
     </footer>
 
-<script src="../lesson-8/scripts/windchill.js"></script>
 <script src="../lesson-8/scripts/date.js"></script>
 <script src="../lesson-8/scripts/hamburger.js"></script>
+<script src="../lesson-8/scripts/windchill.js"></script>
+<script src="../lesson-10/articlejson.js"></script>
+
 
 </body>
 </html>

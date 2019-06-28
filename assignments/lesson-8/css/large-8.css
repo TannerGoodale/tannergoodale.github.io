@@ -51,6 +51,7 @@
         display: block;
         width: 50%;
         margin: auto;
+        text-align: center;
     }
     
     #forecast h3{
@@ -61,7 +62,7 @@
         border: 1px solid black;
         border-collapse: collapse;
         padding: 0;
-        margin: 0;
+        margin: auto;
     }
     th{
         background-color: #F6AA1C;
@@ -74,6 +75,7 @@
         border-right: 1px solid black;
         text-align: center;
         background-color: #efedea;
+        width: 10%;
     }
     tr{
         margin: 0;
