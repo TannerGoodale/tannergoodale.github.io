@@ -1,0 +1,9 @@
+/*Large file for full sized computers*/
+
+@media screen and (min-width: 1024px){
+    /*Main*/
+    main{
+        width: 70%;
+        margin: auto;
+    }
+}
