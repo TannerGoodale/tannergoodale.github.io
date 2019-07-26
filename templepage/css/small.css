@@ -96,6 +96,9 @@ main img{
 .jdata{
     margin: 0;
 }
+.jdatatop{
+    margin: 1rem 0 0;
+}
 /*Footer*/
 footer{
     background-color: #220c10;
