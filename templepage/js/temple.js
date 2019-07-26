@@ -1,4 +1,4 @@
-var requestURL = 'https://github.com/TannerGoodale/tannergoodale.github.io/blob/master/templepage/jsons/temples.json';
+var requestURL = 'https://github.com/TannerGoodale/tannergoodale.github.io/blob/master/jsons/temples.json';
 var request = new XMLHttpRequest();
     request.open('GET', requestURL, true);
     request.withCredentials = true;
