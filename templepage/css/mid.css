@@ -54,4 +54,25 @@
         width: 100%;
         float: none;
     }
+    .topp{
+        font-size: 1em;
+    }
+    legend{
+        font-size: 1.3em;
+    }
+    form fieldset span{
+        font-size: 1em;
+    }
+    .submitBtn{
+        font-size: 1em;
+    }
+    .art{
+        width: 100%
+    }
+    .center{
+        text-align: center;
+    }
+    .cen{
+        width: 80%;
+    }
 }

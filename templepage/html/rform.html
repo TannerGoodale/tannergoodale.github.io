@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Tanner Goodale">
+<link rel="stylesheet" href="../../css/normalize.css">
+<link rel="stylesheet" href="../css/small.css">
+<link rel="stylesheet" href="../css/mid.css">
+<link rel="stylesheet" href="../css/large.css">
+<link rel="icon" href="../imgs/temple_logo_small.png">
+<title>Temple Inn and Suites</title>
+<link href="https://fonts.googleapis.com/css?family=Courgette|Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+    
+        <img src="../imgs/temple_logo_small.png" alt="Temple Logo">
+        <p class="fnt_2">Temple Inn and Suites</p>
+    
+    </header>
+    
+    <nav>
+    
+        <button class="fnt_1" id="mobile" type="button" onclick="toggleFunc()">
+                &#9776; Menu
+        </button>
+        <ul id="drop" class="fnt_1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="rform.html" class="current">Make Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    
+    </nav>
+    
+    <main>
+        
+        <div class="sec_1 fnt_1">
+        
+            <div id="main_header">
+            <h1 class="fnt_2">Prepare Your Reservation</h1>
+            </div>
+            
+            <p>For additional information regarding extended stays or specialized services, please call (1)555-555-5555 or email us at templeinnandsuites@tins.com</p>
+            
+            <p>Additional services can be found <a href="services.html">here</a> as well.  Please be sure to add desired additional services and requests in the additional details section below.</p>
+            
+        <!--This div is to create a container for the image and first section for display reasons on big screens-->
+            
+        <div class="cont">
+        <div class="cont_left form">
+            
+         <form method="get" action="received.html">
+            <fieldset>
+                <legend>User Info</legend>
+                <label><span class="mseper lfont">Full Name*</span> <input class="topp" type="text" name="name" required pattern="(?=.*[a-zA-Z]).{5,}"></label>
+                <label><span class="seper lfont">Email</span> <input class="topp" type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label><span class="seper lfont">Phone*</span> <input class="topp" type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label><span class="mseper lfont">Home State/Country*</span> <input class="topp" type="text" name="user_home" required pattern="(?=.*[a-zA-Z]).{5,}"></label>
+                <label><span class="seper lfont">Zip Code*</span> <input class="topp" type="number" name="zip" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Room and Stay Info</legend>
+                <label><span class="lfont">Location of Stay</span>
+                    <select class="topp str" name="subject">
+                        <option value="" selected="true" disabled="disabled">Select Region </option>
+                        <option value="Salt Lake City Temple Area">Salt Lake City Temple Area</option>
+                        <option value="Kansas City Temple Area">Kansas City Temple Area</option>
+                        <option value="Nauvoo Temple Area">Nauvoo Temple Area</option>
+                        <option value="Laie Hawaii Temple Area">Laie Hawaii Temple Area</option>
+                    </select>
+                </label>
+                <label><span class="mseper lfont">Date of Arrival</span> <input class="topp" type="date" name="date"></label>
+                <label><span class="mseper lfont">Date of Departure</span> <input class="topp" type="date" name="date_end"></label>
+                <label>
+                    <span class="seper lfont">Desired Room Type</span>
+                    <input class="topp" list="type" name="type">
+                    <datalist id="type">
+                        <option value="1 Bed (Twin)">
+                        <option value="2 Beds (Twin)">
+                        <option value="1 Bed (king)">
+                        <option value="Family Suite, 3 Beds (1 King, 2 Queen)">
+                    </datalist>
+                </label>
+                
+                <lable>
+                    <span>How many rooms of this type?</span>
+                    <input class="topp" type="number" name="room_amnt_1">
+                </lable>
+                
+                <label>
+                    <span class="seper lfont">Additional Desired Room Type</span>
+                    <input class="topp" list="type" name="type">
+                    <datalist id="type">
+                        <option value="1 Bed (Twin)">
+                        <option value="2 Beds (Twin)">
+                        <option value="1 Bed (king)">
+                        <option value="Family Suite, 3 Beds (1 King, 2 Queen)">
+                    </datalist>
+                </label>
+                
+                <lable>
+                    <span>How many rooms of this type?</span>
+                    <input class="topp" type="number" name="room_amnt_1">
+                </lable>
+                
+                <p>For additional room types and or services, please specify in additional details section below.</p>
+                
+                <lable><span class="seper lfont">Additional Details:</span> <input class="topp" id="textarea" type="textarea" name="user-comments"></lable>
+    
+            <input type="submit" value="Make My Reservation" class="submitBtn">
+            
+             </fieldset>
+    
+        </form>
+            
+        </div>
+        </div>
+        </div>
+    
+    </main>
+    
+    <footer>
+    
+        <p class="fnt_1">2019 TempleInnandSuites | <a href="contact.html">Contact Us</a></p>
+    
+    </footer>
+
+    <script src="../js/tog.js"></script>
+    
+</body>
+</html>

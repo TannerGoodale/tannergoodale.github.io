@@ -99,6 +99,48 @@ main img{
 .jdatatop{
     margin: 1rem 0 0;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.topp{
+    width: 100%;
+    margin: 0 0 1rem;
+    font-size: 1.5em;
+}
+input:required{
+    border: 1px solid red;
+}
+input:required:valid{
+    border: 1px solid green;
+}
+select:required{
+    border: 1px solid red;
+}
+select:required:valid{
+    border: 1px solid green;
+}
+legend{
+    font-size: 2em;
+}
+form fieldset span{
+    font-size: 1.3em;
+}
+.submitBtn{
+    font-size: 1.3em;
+}
+.spul{
+    display: block;
+    list-style-type: circle;
+}
+.spul li{
+    margin: 0.5rem;
+    font-size: 1em;
+    text-align: left;
+}
+iframe{
+    width: 100%;
+}
 /*Footer*/
 footer{
     background-color: #220c10;
